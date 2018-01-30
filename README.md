@@ -1,5 +1,8 @@
 # react-validation
 
+This repository was created because the main project was not updated on NPM.
+
+
 [![npm version](https://badge.fury.io/js/react-validation.svg)](https://badge.fury.io/js/react-validation) [![Build Status](https://travis-ci.org/Lesha-spr/react-validation.svg?branch=master)](https://travis-ci.org/Lesha-spr/react-validation) [![Coverage Status](https://coveralls.io/repos/github/Lesha-spr/react-validation/badge.svg?branch=master)](https://coveralls.io/github/Lesha-spr/react-validation?branch=master) [![dependencies](https://david-dm.org/Lesha-spr/react-validation.svg)](https://david-dm.org/Lesha-spr/react-validation) [![devDependencies](https://david-dm.org/Lesha-spr/react-validation/dev-status.svg)](https://david-dm.org/Lesha-spr/react-validation/?type=dev)
 
 Component to provide simple form validation for React components. It uses the [Controlled Components](https://facebook.github.io/react/docs/forms.html#controlled-components) approach for validation.

@@ -1,4 +1,5 @@
-import { PropTypes, createElement } from 'react';
+import { createElement } from 'react';
+import PropTypes from 'prop-types';
 import hoistStatics from 'hoist-non-react-statics';
 import cx from 'classnames';
 import rules from './../rules';
@@ -78,6 +79,7 @@ export default function inputFactory(WrappedComponent) {
                 onBlur: this.onBlur,
                 type: this.props.type || 'text',
                 value: changedValue,
+                ref: this.props.ref,
                 hint,
                 ...rest
             };
