@@ -79,7 +79,6 @@ export default function inputFactory(WrappedComponent) {
                 onBlur: this.onBlur,
                 type: this.props.type || 'text',
                 value: changedValue,
-                ref: this.props.ref,
                 hint,
                 ...rest
             };
